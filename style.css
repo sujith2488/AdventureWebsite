@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    font-family: 'Poppins', sans-serif;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.352);
+    color: whitesmoke;
+    padding: 10px;
+    position: fixed;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.contactBtn {
+    padding: 3px 8px;
+    border-radius: 30px;
+    background-color: #fc036b;
+} 
+/* .active {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #fc036b;
+} */
+
+/* Banner Styling */
+
+header {
+    width: 100vw;
+    height: 100vh;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./Images/Banner.jpeg);
+    background-size: 100% 100%;
+}
+
+.content {
+    color: whitesmoke;
+    padding: 20px;
+    text-align:center;
+}
+
+.line {
+    width: 150px;
+    height: 5px;
+    background-color: #fc036b;
+    border-radius: 5px;
+    margin: 5px auto;
+}
+
+.bannerBtn {
+    font-size: 18px;
+    color:whitesmoke;
+    padding: 8px 15px;
+    border-radius: 30px;
+    border-style: none;
+    background-color: #fc036b;
+}
+
+.bannerTitle {
+    font-size: 50px;
+}
