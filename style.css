@@ -70,6 +70,66 @@ header {
     background-color: #fc036b;
 }
 
+.smallbtn{
+    font-size: 14px;
+    padding: 8px 15px;
+    margin: 15px 0;
+}
+
 .bannerTitle {
     font-size: 50px;
+}
+
+.upcoming-event{
+    height: 70vh;
+    width: 100vw;
+}
+
+.card-mainbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.upcoming-card{
+    width: 40%;
+}
+
+.upcoming-card img{
+    width: 100%;
+}
+.upcoming-card h3{
+    text-align: center;
+    margin: 10px 0;
+    color: #152632;
+    font-size: 22px;
+}
+.upcoming-card p{
+    text-align: center;
+    color: #152632;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 20px;
+    color: #152632;
+    font-size: 28px;
+}
+.btnbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:770px){
+    .card-mainbox{
+        flex-direction: column;
+        width: 90%;
+    }
+    .upcoming-card{
+        width: 90%;
+        height: 80%;
+    }
 }
